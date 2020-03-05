@@ -276,9 +276,6 @@ public class MainApp extends Application {
 	        alert.setTitle("Error");
 	        alert.setHeaderText("Could not save data");
 	        alert.setContentText("Could not save data to file:\n" + file.getPath());
-	        
-	        //Show possible Error in Terminal
-	        System.out.println(e);
 
 	        alert.showAndWait();
 	    }
